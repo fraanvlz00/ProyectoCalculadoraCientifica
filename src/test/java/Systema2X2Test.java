@@ -6,12 +6,12 @@ public class Systema2X2Test {
     @Test
     public void resolver_CalculaXCorrectamente() {
         // Definimos los coeficientes de las ecuaciones
-        double A = 1;
-        double B = 2;
-        double C = 3;
-        double D = -1;
-        double E = 2;
-        double F = 4;
+        double A = 1.0;
+        double B = 2.0;
+        double C = 3.0;
+        double D = -1.0;
+        double E = 2.0;
+        double F = 4.0;
 
         // Definimos el valor esperado de x
         double expectedX = -0.5;
